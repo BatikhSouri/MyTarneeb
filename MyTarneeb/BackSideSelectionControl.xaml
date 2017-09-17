@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="BackSideSelectionControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="86" d:DesignWidth="75" MaxWidth="85" MaxHeight="86" MinHeight="86" MinWidth="75">
+    <Grid>
+        <StackPanel Height="86" HorizontalAlignment="Left" Name="StackPanel1" VerticalAlignment="Top" Width="75" Orientation="Horizontal">
+            <RadioButton Content="" Height="16" Name="SelectionRadioButton" GroupName="BackSideSelection" />
+            <Image Height="86" Name="BackSideImage" Stretch="Fill" Width="60" />
+        </StackPanel>
+    </Grid>
+</UserControl>

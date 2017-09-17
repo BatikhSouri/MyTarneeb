@@ -1,0 +1,36 @@
+﻿<Window x:Class="StatsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Statistiques de MyTarneeb" Height="362" Width="392" ResizeMode="NoResize" WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <TabControl Margin="12,12,12,41" Name="StatsTabControl">
+            <TabItem Header="Période" Name="PeriodTabItem">
+                <Grid>
+                    <Button Content="Mettre à zéro" Height="23" HorizontalAlignment="Right" Margin="0,210,6,0" Name="ResetButton" VerticalAlignment="Top" Width="75" />
+                    <Label Content="Dernière mise à zéro : " Margin="5,210,87,0" Name="ResetCounterDateLabel" Width="242" Height="23" VerticalAlignment="Top" />
+                    <Label Content="Temps de jeu :" Height="24" Margin="6,96,6,0" Name="PeriodGameTimeLabel" VerticalAlignment="Top" />
+                    <Label Content="100%" FontSize="48" Foreground="Lime" Height="62" Margin="6,6,140,0" Name="PercentagePeriodWonGames" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+                    <Label Content="100%" FontSize="48" Foreground="Red" Height="62" Margin="140,6,6,0" Name="PercentagePeriodLostGames" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+                    <Label Content="% Parties gagnées" Height="24" Margin="6,70,168,0" Name="Legende3" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+                    <Label Content="% Parties perdues" Height="24" Margin="173,70,6,0" Name="Legende4" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+                    <Label Content="Parties jouées :" Height="24" Margin="6,126,6,0" Name="PeriodPlayedGamesLabel" VerticalAlignment="Top" />
+                    <Label Content="Parties gagnées :" Height="24" Margin="6,156,6,0" Name="PeriodWonGamesLabel" VerticalAlignment="Top" />
+                    <Label Content="Parties perdues :" Height="24" Margin="6,186,6,0" Name="PeriodLostGamesLabel" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Total" Name="TotalTabItem">
+                <Grid>
+                    <Label Content="Temps de jeu total :" Height="24" Margin="6,96,6,0" Name="TotalGameTimeLabel" VerticalAlignment="Top" />
+                    <Label Content="100%" FontSize="48" Foreground="Lime" Height="62" Margin="6,6,142,0" Name="PercentageTotalWonLabel" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+                    <Label Content="100%" FontSize="48" Foreground="Red" Height="62" Margin="142,6,6,0" Name="PercentageTotalLostLabel" VerticalAlignment="Top" HorizontalContentAlignment="Center" />
+                    <Label Content="% Parties gagnées" Height="24" Margin="6,70,166,0" Name="Legende1" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="163" />
+                    <Label Content="% Parties perdues" Height="24" Margin="175,70,6,0" Name="Legende2" VerticalAlignment="Top" HorizontalContentAlignment="Center" Width="154" />
+                    <Label Content="Parties jouées :" Height="24" Margin="6,126,6,0" Name="TotalNumGamesPlayed" VerticalAlignment="Top" />
+                    <Label Content="Parties gagnées :" Height="24" Margin="6,156,6,0" Name="TotalNumGamesWon" VerticalAlignment="Top" />
+                    <Label Content="Parties perdues :" Height="24" Margin="6,186,6,0" Name="TotalNumGamesLost" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Content="OK" Height="23" HorizontalAlignment="Right" Margin="0,0,12,12" Name="OKButton" VerticalAlignment="Bottom" Width="75" IsDefault="True" />
+    </Grid>
+</Window>

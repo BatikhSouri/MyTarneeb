@@ -1,0 +1,151 @@
+﻿1.0.0.0
+English
+English
+# Card Families
+Hearts
+Spades
+Clubs
+Diamonds
+#
+hearts
+spades
+clubs
+diamonds
+of
+#
+heart
+spade
+club
+diamond
+# Card Values
+Two
+Three
+Four
+Five
+Six
+Seven
+Eight
+Nine
+Ten
+Jack
+Queen
+King
+Ace
+# Menus
+Game
+New Game
+End Game
+Pause
+Statistics
+Language
+Display
+Game Level
+Card Design
+Quit
+Do you really want to quit MyTarneeb ?
+Help
+Game Rules
+Website of MyTarneeb
+About
+# Status Bar
+Cards played during the last round :
+Game time :
+Round :
+Rounds won :
+Rounds lost :
+Bet :
+Bet Owners :
+Level :
+# Last Round Cards ToolTip
+played by
+# Players
+You
+Your team mate
+The player on your right
+The player on your left
+Your team
+Your opponents
+#
+you
+your team mate
+the player on your right
+the player on your left
+your team
+your opponents
+# Language Selection Window
+Languages
+Cancel
+MyTarneeb is going to be restarted to let the change take effect.
+# Game Messages
+Do you want to start a new game ?
+Do you really want to finish the actual game ?
+No player has bet. The cards are going to be redistributed.
+bets
+passes his turn.
+You've won !
+You've lost !
+Your team is the bet owner.
+Your opponents are the bet owners.
+The bet is
+The Tarneeb is
+You begin the game.
+The player on your right begins the game.
+Your team mate begins the game.
+The player on your left begins the game.
+You bet first
+The player on your right bets first
+Your team mate bets first
+The player on your left bets first
+# BetForm
+Bet !
+How much do you bet ?
+What is the Tarneeb family ?
+I bet !
+I pass !
+Please choose your Tarneeb family.
+Are you sure you want to pass ?
+# SettingsWindow
+Card design
+# StatsWindow
+Period
+All time
+Reset
+% of games won
+% of games lost
+Game time
+Total game time
+Games played
+Games won
+Games lost
+Last reset
+never
+days
+hours
+minutes and
+seconds
+Do you really want to reset the period statistics ?
+Reset statistics
+# ViewSettingsWindow
+View settings
+Order families
+Order cards
+By ascending
+By descending
+Angle between each card (degrees)
+Invalid angle value. Please retry.
+# LevelSelectionWindow
+Game level
+Very easy
+Easy
+Medium
+Hard
+Extreme
+# EXCLUDED SECTION in some language files; it has to be at the end of the file
+# AboutBox
+Developped by Ahmad Ben MRad
+Special thanks to
+- Joseph Azouri, to have taught the rules of the Tarneeb
+- Omar Itani, to have helped me in designing the computer player algorithm
+- Nour Nachabe, to have helped me in designing the computer player's algorithm but also to have encouraged me by saying "you ain't going to make it !"
+- Jesse Fuchs and Tom Hart for the cards graphic design
+Cards design website

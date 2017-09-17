@@ -1,0 +1,10 @@
+﻿<Window x:Class="LanguageSelectionWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Langues" Height="200" Width="300" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <Grid>
+        <ListBox Margin="12,12,12,41" Name="ListBox1" />
+        <Button Content="OK" Height="23" HorizontalAlignment="Right" Margin="0,0,12,12" Name="Button1" VerticalAlignment="Bottom" Width="75" IsDefault="True" />
+        <Button Content="Annuler" Height="23" HorizontalAlignment="Right" Margin="0,0,93,12" Name="Button2" VerticalAlignment="Bottom" Width="75" IsCancel="True" />
+    </Grid>
+</Window>

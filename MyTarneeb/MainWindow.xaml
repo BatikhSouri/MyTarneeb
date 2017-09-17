@@ -1,0 +1,356 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MyTarneeb" Icon="/MyTarneeb;component/applications-games-3.ico" xmlns:my="clr-namespace:MyTarneeb" WindowStartupLocation="CenterScreen" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="480" Width="800" MinHeight="480" MinWidth="800">
+    <Grid Name="MainGrid">
+        <!-- Human Card Controls -->
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl1" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="-60"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl Height="129" HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl2" VerticalAlignment="Bottom" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="-50"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl Height="129" HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl3" VerticalAlignment="Bottom" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="-40"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl Height="129" HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl4" VerticalAlignment="Bottom" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="-30"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl5" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="-20"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl6" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="-10"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl7" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="0"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl8" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="10"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl9" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="20"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl10" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="30"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl11" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="40"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl12" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="50"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        <my:HumanPlayerCardControl HorizontalAlignment="Center" Margin="320,0,208,22" x:Name="HumanPlayerCardControl13" VerticalAlignment="Bottom" Height="129" Width="90">
+            <my:HumanPlayerCardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="129" Angle="60"/>
+            </my:HumanPlayerCardControl.RenderTransform>
+        </my:HumanPlayerCardControl>
+        
+        <!-- Turn Cards Controls -->
+        <my:CardControl HorizontalAlignment="Center" Margin="272,176,286,179" x:Name="TurnCardControl1" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="30" CenterY="43" Angle="0"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="371,193,187,162" x:Name="TurnCardControl2" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="30" CenterY="43" Angle="-120"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="348,122,210,233" x:Name="TurnCardControl3" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="30" CenterY="43" Angle="-150"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="195,199,363,156" x:Name="TurnCardControl4" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="30" CenterY="43" Angle="80"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        
+        <!-- IA Player 2 Card Controls (Teammate)-->
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl1" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="120"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl2" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="130"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl3" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="140"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl4" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="150"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl5" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="160"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl6" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="170"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl7" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="180"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl8" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="190"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl9" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="200"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl10" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="210"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl11" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="220"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl12" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="230"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Center" Margin="320,-63,238,0" x:Name="IA2CardControl13" VerticalAlignment="Top" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="240"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        
+        <!-- IA Player 1 Card Controls -->
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl1" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="210"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl2" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="220"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl3" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="230"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl4" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="240"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl5" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="250"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl6" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="260"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl7" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="270"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl8" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="280"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl9" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="290"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl10" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="300"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl11" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="310"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl12" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="320"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Right" Margin="0,140,-1,215" x:Name="IA1CardControl13" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="330"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+
+        <!-- IA Player 3 Card Controls -->
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl1" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="30"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl2" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="40"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl3" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="50"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl4" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="60"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl5" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="70"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl6" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="80"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl7" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="90"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl8" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="100"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl9" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="110"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl10" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="120"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl11" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="130"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl12" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="140"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+        <my:CardControl HorizontalAlignment="Left" Margin="0,140,0,215" x:Name="IA3CardControl13" VerticalAlignment="Center" Height="86" Width="60">
+            <my:CardControl.RenderTransform>
+                <RotateTransform CenterX="0" CenterY="86" Angle="150"/>
+            </my:CardControl.RenderTransform>
+        </my:CardControl>
+
+        <Menu Height="23" Name="Menu1" VerticalAlignment="Top">
+            <MenuItem Header="Jeu" Name="GameMenuItem">
+                <MenuItem Header="Nouvelle partie" Name="NewGameMenuItem" />
+                <MenuItem Header="Finir partie" Name="FinishGameMenuItem" IsEnabled="False"/>
+                <MenuItem Header="Pause" Name="PauseMenuItem" IsCheckable="True" IsChecked="False" IsEnabled="False"/>
+                <Separator />
+                <MenuItem Header="Statistiques" Name="StatsMenuItem"/>
+                <Separator />
+                <MenuItem Header="Langue" Name="LanguageMenuItem" />
+                <MenuItem Header="Affichage" Name="ViewMenuItem" />
+                <MenuItem Header="Niveau de difficulté" Name="GameLevelMenuItem" />
+                <MenuItem Header="Motif des cartes" Name="SettingsMenuItem" />
+                <Separator />
+                <MenuItem Header="Quitter" Name="QuitMenuItem" />
+            </MenuItem>
+            <MenuItem Header="?">
+                <!--<MenuItem Header="Aide" />-->
+                <MenuItem Header="Règles du jeu" Name="GameRulesMenuItem"/>
+                <Separator />
+                <MenuItem Header="Site web de MyTarneeb" Name="MyTarneebWebSiteMenuItem" />
+                <MenuItem Header="À propos de..." Name="AboutMenuItem" />
+            </MenuItem>
+        </Menu>
+        
+        <my:CardControl HorizontalAlignment="Left" Margin="12,0,0,29" x:Name="LastTurnCard1" VerticalAlignment="Bottom" Height="54" Width="38" />
+        <my:CardControl HorizontalAlignment="Left" Margin="63,0,0,29" x:Name="LastTurnCard2" VerticalAlignment="Bottom" Height="54" Width="38" />
+        <my:CardControl HorizontalAlignment="Left" Margin="114,0,0,29" x:Name="LastTurnCard3" VerticalAlignment="Bottom" Height="54" Width="38" />
+        <my:CardControl HorizontalAlignment="Left" Margin="165,0,0,29" x:Name="LastTurnCard4" VerticalAlignment="Bottom" Height="54" Width="38" />
+        <Label Content="Cartes jouées lors du dernier tour :" Height="28" HorizontalAlignment="Left" Margin="12,0,0,89" Name="LastTurnCardsLabel" VerticalAlignment="Bottom" Width="191" Foreground="Black" Visibility="Collapsed"/>
+        <my:GameProgressBar Height="80" HorizontalAlignment="Right" Margin="0,29,12,0" x:Name="GameProgressBar1" VerticalAlignment="Top" Width="24" />
+        <StatusBar Height="23" Name="StatusBar1" VerticalAlignment="Bottom">
+            <StatusBarItem Content="Temps de jeu : 00:00" Name="GameTimeLabel" Visibility="Visible"/>
+            <Separator Width="Auto" />
+            <StatusBarItem Content="Tour" Name="TurnNumberLabel" Visibility="Visible"/>
+            <Separator />
+            <StatusBarItem Content="Tours gagnés" Name="WonTurnsLabel" Visibility="Visible"/>
+            <Separator />
+            <StatusBarItem Content="Tours perdus" Name="LostTurnsLabel" Visibility="Visible" />
+            <Separator />
+            <StatusBarItem Content="Tarneeb" Name="TarneebLabel" Visibility="Visible"/>
+            <Separator Width="Auto" />
+            <StatusBarItem Content="Pari" Name="BetLabel" Visibility="Visible"/>
+            <Separator />
+            <StatusBarItem Content="Propriétaire du pari" Name="BetOwnerLabel" Visibility="Visible"/>
+            <Separator/>
+            <StatusBarItem Content="Niveau" Name="GameLevelLabel" Visibility="Visible" />
+        </StatusBar>
+        <!--<my:GameMessageControl Margin="2,29,0,0" x:Name="GameMessageControl1" VerticalAlignment="Top" Height="100" HorizontalAlignment="Left" Width="280" />-->
+        <TextBlock x:Name="GameMessageTextBlock" Margin="2,29,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="16" Height="100" Width="280"/>
+        <Label Content="Tarneeb :" Height="28" HorizontalAlignment="Right" Margin="0,0,12,89" Name="GraphicalTarneebLabel" VerticalAlignment="Bottom" Width="58" Visibility="Collapsed" />
+        <Image Height="48" HorizontalAlignment="Right" Margin="0,0,18,35" Name="TarneebImage" Stretch="Fill" VerticalAlignment="Bottom" Width="48" />
+        <Button Content="Nouvelle partie" Height="23" HorizontalAlignment="Center" Margin="342,141,350,0" Name="NewGameButton" VerticalAlignment="Top" Width="85" />
+        <!--<Label Content="Message" Height="80" Margin="2,119,1,0" Name="GameInfoLabel" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="24" Visibility="Collapsed"/>-->
+    </Grid>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF20E520" Offset="0" />
+            <GradientStop Color="Green" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+</Window>

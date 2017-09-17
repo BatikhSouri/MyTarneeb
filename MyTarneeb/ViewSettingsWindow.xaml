@@ -1,0 +1,21 @@
+﻿<Window x:Class="ViewSettingsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Réglages d'affichage" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="242" Width="300">
+    <Grid>
+        <GroupBox Header="Classer les familles :" Height="71" Margin="12,12,12,0" Name="FamiliesOrderGroupBox" VerticalAlignment="Top">
+            <Grid>
+                <RadioButton Content="Par ordre décroissant" Height="16" Margin="6,6,6,0" Name="ByAscendingFamiliesRadioButton" VerticalAlignment="Top" GroupName="Families" />
+                <RadioButton Content="Par ordre croissant" Height="16" Margin="6,30,6,0" Name="ByDescendingFamiliesRadioButton" VerticalAlignment="Top" GroupName="Families" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Classer les cartes :" Height="71" Margin="12,89,12,0" Name="CardsOrderGroupBox" VerticalAlignment="Top">
+            <Grid>
+                <RadioButton Content="Par ordre décroissant" Height="16" Margin="6,6,6,0" Name="ByAscendingCardsRadioButton" VerticalAlignment="Top" GroupName="Cards" />
+                <RadioButton Content="Par ordre croissant" Height="16" Margin="6,30,6,0" Name="ByDescendingCardsRadioButton" VerticalAlignment="Top" GroupName="Cards" />
+            </Grid>
+        </GroupBox>
+        <Button Content="OK" Height="23" HorizontalAlignment="Right" Margin="0,0,12,12" Name="Button1" VerticalAlignment="Bottom" Width="75" IsDefault="True" />
+        <Button Content="Annuler" Height="23" HorizontalAlignment="Right" Margin="0,0,93,12" Name="Button2" VerticalAlignment="Bottom" Width="75" IsCancel="True" />
+    </Grid>
+</Window>

@@ -1,0 +1,38 @@
+﻿<Window x:Class="SettingsWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Motif des cartes" Height="434" Width="497" xmlns:my="clr-namespace:MyTarneeb">
+    <Grid>
+        <Button Content="OK" HorizontalAlignment="Right" Margin="0,0,12,12" Name="Button1" Width="75" TabIndex="0" Height="23" VerticalAlignment="Bottom" IsDefault="True" />
+        <Button Content="Annuler" Height="23" HorizontalAlignment="Right" Margin="0,0,93,12" Name="Button2" VerticalAlignment="Bottom" Width="75" TabIndex="1" IsCancel="True" />
+        <GroupBox Header="Motif des cartes :" Margin="12,12,12,0" Name="GroupBox2" Height="342" VerticalAlignment="Top">
+            <Grid>
+                <ScrollViewer Margin="6,6,6,128" Name="ScrollViewer1" VerticalScrollBarVisibility="Auto">
+                    <StackPanel Height="172" Name="StackPanel3" Width="340">
+                        <StackPanel Height="86" Name="StackPanel2" Width="340" Orientation="Horizontal">
+                            <my:BackSideSelectionControl x:Name="BlueBackSideSelectionControl1" BackSideID="1" Width="85" />
+                            <my:BackSideSelectionControl x:Name="BlueBackSideSelectionControl2" BackSideID="2" Width="85" />
+                            <my:BackSideSelectionControl x:Name="BlueBackSideSelectionControl3" BackSideID="3" Width="85" />
+                            <my:BackSideSelectionControl x:Name="BlueBackSideSelectionControl4" BackSideID="4" Width="85" />
+                        </StackPanel>
+                        <StackPanel Height="86" Name="StackPanel4" Width="340" Orientation="Horizontal">
+                            <my:BackSideSelectionControl x:Name="RedBackSideSelectionControl1" BackSideID="1" Width="85" />
+                            <my:BackSideSelectionControl x:Name="RedBackSideSelectionControl2" BackSideID="2" Width="85" />
+                            <my:BackSideSelectionControl x:Name="RedBackSideSelectionControl3" BackSideID="3" Width="85" />
+                            <my:BackSideSelectionControl x:Name="RedBackSideSelectionControl4" BackSideID="4" Width="85" />
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+                <StackPanel Height="25" Margin="6,0,87,97" Name="StackPanel5" VerticalAlignment="Bottom" Orientation="Horizontal" Visibility="Hidden">
+                    <CheckBox Content="Utiliser un motif personnalisé" Height="16" Name="UserBackSideCheckBox" Width="165" Visibility="Hidden" />
+                    <ComboBox Height="23" Name="FileComboBox" Width="180" IsEnabled="False" Visibility="Hidden" />
+                </StackPanel>
+                <Button Content="Parcourir" Height="23" Name="BrowseButton" Width="75" Margin="0,0,6,97" VerticalAlignment="Bottom" HorizontalAlignment="Right" IsEnabled="False" Visibility="Hidden" />
+                <StackPanel Height="86" Name="UserSelectionStackPanel" Width="200" Orientation="Horizontal" Margin="0,231,6,6" HorizontalAlignment="Right" Visibility="Hidden">
+                    <Label Content="Votre sélection :" FontSize="18" Height="36" Name="Label1" Visibility="Hidden" />
+                    <Image Name="BackSidePreviewImage" Stretch="Fill" Width="60" ToolTip="Votre sélection" Height="86" Visibility="Hidden" />
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

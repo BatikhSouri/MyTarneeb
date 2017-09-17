@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="GameProgressBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="120" d:DesignWidth="24">
+    <Grid>
+        <ProgressBar Name="OwnerProgressBar" Orientation="Vertical" Value="0" Height="60" VerticalAlignment="Bottom" BorderThickness="1"/>
+        <ProgressBar Height="60" Name="RivalProgressBar" VerticalAlignment="Top" Orientation="Vertical" Value="0" BorderThickness="1" Margin="0,0,0,0">
+            <ProgressBar.RenderTransform>
+                <RotateTransform CenterX="12" CenterY="30" Angle="180"/>
+            </ProgressBar.RenderTransform>
+            <ProgressBar.Foreground>
+                <RadialGradientBrush>
+                    <GradientStop Color="Red" Offset="0" />
+                    <GradientStop Color="#FFFFA0A0" Offset="1" />
+                </RadialGradientBrush>
+            </ProgressBar.Foreground>
+        </ProgressBar>
+    </Grid>
+</UserControl>

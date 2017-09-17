@@ -1,0 +1,154 @@
+﻿1.1.0.0
+French
+Français
+# Card Families
+Coeurs
+Piques
+Trèfles
+Carreaux
+#
+coeurs
+piques
+trèfles
+carreaux
+de
+#
+coeur
+pique
+trèfle
+carreau
+# Card Values
+Deux
+Trois
+Quatre
+Cinq
+Six
+Sept
+Huit
+Neuf
+Dix
+Valet
+Reine
+Roi
+As
+# Menus
+Jeu
+Nouvelle partie
+Finir partie
+Pause
+Statistiques
+Langue
+Affichage
+Niveau de difficulté
+Motif des cartes
+Quitter
+Voulez-vous vraiment quitter MyTarneeb ?
+Aide
+Règles du jeu
+Site web de MyTarneeb
+À propos de
+# Status Bar
+Cartes jouées lors du dernier tour :
+Temps de jeu : 
+Tour :
+Tours gagnés :
+Tours perdus :
+Pari :
+Propriétaires du pari :
+Niveau :
+# Last Round Cards ToolTip
+jouée par
+# Players
+Vous
+Votre coéquipier
+Le joueur à votre droite
+Le joueur à votre gauche
+Votre équipe
+Vos adversaires
+#
+vous
+votre coéquipier
+le joueur à votre droite
+le joueur à votre gauche
+votre équipe
+vos adversaires
+# Language Selection Window
+Langues
+Annuler
+Afin que le changement de langue prenne effet, MyTarneeb va être redémarré.
+# Game Messages
+Voulez-vous commencer une nouvelle partie ?
+Voulez-vous vraiment arrêter la partie en cours ?
+Aucun joueur n'a parié. Les cartes vont être redistribuées.
+parie
+passe son tour.
+Vous avez gagné !
+Vous avez perdu !
+Votre équipe est le propriétaire du pari.
+L'équipe adverse est le propriétaire du pari.
+Le pari est de
+Le Tarneeb est
+Vous commencez la partie.
+Le joueur à votre droite commence la partie.
+Votre coéquipier commence la partie.
+Le joueur à votre gauche commence la partie.
+Vous pariez en premier
+Le joueur à votre droite parie en premier
+Votre coéquipier parie en premier
+Le joueur à votre gauche parie en premier
+# BetForm
+Pariez !
+Combien pariez-vous ?
+Quelle est la famille de Tarneeb ?
+Je parie !
+Je passe !
+Veuillez choisir votre famille d'atouts.
+Voulez-vous vraiment passer ?
+# SettingsWindow
+Motif des cartes
+# StatsWindow
+Période
+Total
+Mettre à zéro
+% Parties gagnés
+% Parties perdues
+Temps de jeu
+Temps de jeu total
+Parties jouées
+Parties gagnées
+Parties perdues
+Dernière mise à zéro
+jamais
+jours
+heures
+minutes et
+secondes
+Voulez-vous vraiment mettre à zéro les statistiques de période ?
+Mettre à zèro les stastiques
+# ViewSettingsWindow
+Réglages d'affichage
+Classer les familles
+Classer les cartes
+Par ordre croissant
+Par ordre décroissant
+Angle entre chaque carte (degrés)
+Valeur d'angle invalide. Veuillez réessayer.
+# LevelSelectionWindow
+Niveau de difficulté
+Très facile
+Facile
+Moyen
+Difficile
+Extrême
+# TarneebSelectionWindow
+Sélectionnez le Tarneeb
+Vous avez gagné le pari; veuillez sélectionner le Tarneeb (atout)
+# EXCLUDED SECTION in some language files, it has to be at the end of the file
+# AboutBox
+Développé par Ahmad Ben MRad
+Remerciements à
+- Joseph Azouri, pour m'avoir appris les règles du Tarneeb
+- Omar Itani, pour m'avoir aidé dans la conception de l'algorithme des joueurs ordinateur
+- Nour Nachabe, pour m'avoir aidé dans la conception de l'algorithme des joueurs ordinateur mais aussi pour m'avoir encouragé en me disant : tu vas pas y arriver !
+- Jesse Fuchs et Tom Hart pour le design des cartes
+Site web du design des cartes

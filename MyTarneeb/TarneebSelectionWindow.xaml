@@ -1,0 +1,36 @@
+﻿<Window x:Class="TarneebSelectionWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Selectionnez le Tarneeb :" Height="169" Width="350" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <Label Content="Vous avez gagné le pari; veuillez choisir le Tarneeb (atout) :" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="Label1" VerticalAlignment="Top" />
+        <Grid Margin="12,46,12,12" Name="Grid1">
+            <Button Content="" Height="32" HorizontalAlignment="Center" Margin="21,24,23,16" Name="DiamondsSButton" VerticalAlignment="Center" Width="32" ToolTip="Carreaux">
+                <Button.Background>
+                    <ImageBrush ImageSource="/MyTarneeb;component/Images/Tarneebs/diamonds.png" />
+                </Button.Background>
+            </Button>
+            <Button Content="" Grid.Column="1" Height="32" HorizontalAlignment="Center" Margin="21,24,23,16" Name="SpadesSButton" VerticalAlignment="Center" Width="32" ToolTip="Piques">
+                <Button.Background>
+                    <ImageBrush ImageSource="/MyTarneeb;component/Images/Tarneebs/spades.png" />
+                </Button.Background>
+            </Button>
+            <Button Content="" Grid.Column="2" Height="32" HorizontalAlignment="Center" Margin="24,24,20,16" Name="HeartsSButton" VerticalAlignment="Center" Width="32" ToolTip="Coeurs">
+                <Button.Background>
+                    <ImageBrush ImageSource="/MyTarneeb;component/Images/Tarneebs/hearts.png" />
+                </Button.Background>
+            </Button>
+            <Button Content="" Grid.Column="3" Height="32" HorizontalAlignment="Center" Margin="22,24,22,16" Name="ClubsSButton" VerticalAlignment="Center" Width="32" ToolTip="Trèfles">
+                <Button.Background>
+                    <ImageBrush ImageSource="/MyTarneeb;component/Images/Tarneebs/clubs.png" />
+                </Button.Background>
+            </Button>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </Grid>
+</Window>
